@@ -86,7 +86,7 @@ export default function Proyectos() {
           <DiseñoCard
             titulo={"Dashboard Gamer"}
             rutas={[
-              "/ProyectosDiseño/Dashboard/dashMobile.jpg",
+              "public/ProyectosDiseño/Dashboard/dashMobile.jpg",
               "/ProyectosDiseño/Dashboard/dashTablet.jpg",
               "/ProyectosDiseño/Dashboard/dashPC.jpg",
             ]}
