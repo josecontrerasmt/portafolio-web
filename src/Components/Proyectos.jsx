@@ -86,25 +86,25 @@ export default function Proyectos() {
           <DiseñoCard
             titulo={"Dashboard Gamer"}
             rutas={[
-              "./ProyectosDiseño/Dashboard/dashMobile.JPG",
-              "./ProyectosDiseño/Dashboard/dashTablet.JPG",
-              "./ProyectosDiseño/Dashboard/dashPC.JPG",
+              "/ProyectosDiseño/Dashboard/dashMobile.jpg",
+              "/ProyectosDiseño/Dashboard/dashTablet.jpg",
+              "/ProyectosDiseño/Dashboard/dashPC.jpg",
             ]}
           />
           <DiseñoCard
             titulo={"Landing Page"}
             rutas={[
-              "./ProyectosDiseño/LandingPage/pageMobile.JPG",
-              "./ProyectosDiseño/LandingPage/pageTablet.JPG",
-              "./ProyectosDiseño/LandingPage/pagePC.JPG",
+              "/ProyectosDiseño/LandingPage/pageMobile.jpg",
+              "/ProyectosDiseño/LandingPage/pageTablet.jpg",
+              "/ProyectosDiseño/LandingPage/pagePC.jpg",
             ]}
           />
           <DiseñoCard
             titulo={"Tienda de Comida"}
             rutas={[
-              "./ProyectosDiseño/Tienda/tiendaMobile.JPG",
-              "./ProyectosDiseño/Tienda/tiendaTablet.JPG",
-              "./ProyectosDiseño/Tienda/tiendaPC.JPG",
+              "/ProyectosDiseño/Tienda/tiendaMobile.jpg",
+              "/ProyectosDiseño/Tienda/tiendaTablet.jpg",
+              "/ProyectosDiseño/Tienda/tiendaPC.jpg",
             ]}
           />
         </div>
