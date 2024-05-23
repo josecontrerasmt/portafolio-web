@@ -6,17 +6,17 @@ export default function DiseñoCard({ titulo, rutas }) {
         <img
           className="border border-gray-600 w-[180px] h-[260px] lg:h-[200px] md:h-[240px] lg:w-auto rounded-xl object-fill"
           src={`${rutas[0]}`}
-          alt="Dashboard"
+          alt={titulo}
         />
         <img
           className="border border-gray-600 h-[260px] lg:h-[200px] md:h-[240px] rounded-xl object-fill"
           src={`${rutas[1]}`}
-          alt="Dashboard"
+          alt={titulo}
         />
         <img
           className="border border-gray-600 h-[260px] lg:h-[200px] md:h-[240px] rounded-xl object-fill"
           src={`${rutas[2]}`}
-          alt="Dashboard"
+          alt={titulo}
         />
       </div>
     </div>
