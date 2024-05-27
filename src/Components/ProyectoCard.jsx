@@ -31,7 +31,11 @@ export default function ProyectoCard({
               icon = "bxl-javascript text-[#FEDE27]";
             } else if (tecnologia === "Boots") {
               icon = "bxl-bootstrap text-[#6E2CF3]";
-            } else {
+            } else if(tecnologia==="React"){
+              icon = "bx bxl-react text-[#1399C4]";
+            }else if(tecnologia==="tailwind"){
+              icon = "bx bxl-tailwind-css text-[#36B7F0]";
+            }else{
               icon = "bx-code";
             }
             return (

@@ -28,6 +28,17 @@ export default function Proyectos() {
             link={"https://josecontrerasmt.github.io/Rick-and-Morty-Api/"}
           />
           <ProyectoCard
+            imgRuta={"Peliculas-Series-Populares.jpg"}
+            tect={['React',"html","Css","Js","tailwind"]}
+            titulo={"Películas y Series Populares"}
+            descript={
+              'Aplicación personal para guardar películas y series populares utilizando los datos proporcionados por "The Movie db", interactiva e informativa.'
+            }
+            link={
+              "https://josecontrerasmt.github.io/Peliculas-y-Series-Populares/"
+            }
+          />
+          <ProyectoCard
             imgRuta={"Galeria.JPG"}
             tect={["html", "Css", "Js"]}
             titulo={"Galería"}
@@ -35,17 +46,6 @@ export default function Proyectos() {
               "Pequeña galería utilizando vanilla JavaScript para la interacción con las imágenes."
             }
             link={"https://josecontrerasmt.github.io/Galeria/"}
-          />
-          <ProyectoCard
-            imgRuta={"Peliculas-Series-Populares.JPG"}
-            tect={["html", "Css", "Js"]}
-            titulo={"Películas-Series-Populares"}
-            descript={
-              "Página de películas y series populares utilizando la API de 'the movie db', interactiva e informativa."
-            }
-            link={
-              "https://josecontrerasmt.github.io/Peliculas-Series-Populares/"
-            }
           />
           <ProyectoCard
             imgRuta={"Tienda-tennis.JPG"}
