@@ -19,7 +19,7 @@ export default function Proyectos() {
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <ProyectoCard
-            imgRuta={"rick and morty API.JPG"}
+            imgRuta={"ProyectosImgs/rick and morty API.png"}
             tect={["html", "Css", "Js"]}
             titulo={"Rick-and-Morty-Api"}
             descript={
@@ -28,7 +28,7 @@ export default function Proyectos() {
             link={"https://josecontrerasmt.github.io/Rick-and-Morty-Api/"}
           />
           <ProyectoCard
-            imgRuta={"Peliculas-Series-Populares.jpg"}
+            imgRuta={"ProyectosImgs/Peliculas-Series-Populares.png"}
             tect={['React',"html","Css","Js","tailwind"]}
             titulo={"Películas y Series Populares"}
             descript={
@@ -39,7 +39,7 @@ export default function Proyectos() {
             }
           />
           <ProyectoCard
-            imgRuta={"Galeria.JPG"}
+            imgRuta={"ProyectosImgs/Galeria.png"}
             tect={["html", "Css", "Js"]}
             titulo={"Galería"}
             descript={
@@ -48,7 +48,7 @@ export default function Proyectos() {
             link={"https://josecontrerasmt.github.io/Galeria/"}
           />
           <ProyectoCard
-            imgRuta={"Tienda-tennis.JPG"}
+            imgRuta={"ProyectosImgs/Tienda-tennis.png"}
             tect={["html", "Css", "Js", "Boots"]}
             titulo={"Tienda Tenis"}
             descript={
@@ -57,7 +57,7 @@ export default function Proyectos() {
             link={"https://josecontrerasmt.github.io/Tienda-de-Tenis/"}
           />
           <ProyectoCard
-            imgRuta={"Game-Rock-Paper-Scissors.JPG"}
+            imgRuta={"ProyectosImgs/Game-Rock-Paper-Scissors.png"}
             tect={["html", "Css", "Js"]}
             titulo={"Game-Rock-Paper-Scissors"}
             descript={
@@ -66,7 +66,7 @@ export default function Proyectos() {
             link={"https://josecontrerasmt.github.io/Game-Rock-Paper-Scissors/"}
           />
           <ProyectoCard
-            imgRuta={"Challenge-ONE-Encriptador-de-Texto.JPG"}
+            imgRuta={"ProyectosImgs/Challenge-ONE-Encriptador-de-Texto.png"}
             tect={["html", "Css", "Js"]}
             titulo={"Challenge-ONE-Encriptador-de-Texto"}
             descript={
@@ -86,25 +86,25 @@ export default function Proyectos() {
           <DiseñoCard
             titulo={"Dashboard Gamer"}
             rutas={[
-              "ProyectosDiseño/Dashboard/dashMobile.jpg",
-              "ProyectosDiseño/Dashboard/dashTablet.jpg",
-              "ProyectosDiseño/Dashboard/dashPC.jpg",
+              "ProyectosDiseño/Dashboard/dashMobile.png",
+              "ProyectosDiseño/Dashboard/dashTablet.png",
+              "ProyectosDiseño/Dashboard/dashPC.png",
             ]}
           />
           <DiseñoCard
             titulo={"Landing Page"}
             rutas={[
-              "ProyectosDiseño/LandingPage/pageMobile.jpg",
-              "ProyectosDiseño/LandingPage/pageTablet.jpg",
-              "ProyectosDiseño/LandingPage/pagePC.jpg",
+              "ProyectosDiseño/LandingPage/pageMobile.png",
+              "ProyectosDiseño/LandingPage/pageTablet.png",
+              "ProyectosDiseño/LandingPage/pagePC.png",
             ]}
           />
           <DiseñoCard
             titulo={"Tienda de Comida"}
             rutas={[
-              "ProyectosDiseño/Tienda/tiendaMobile.jpg",
-              "ProyectosDiseño/Tienda/tiendaTablet.jpg",
-              "ProyectosDiseño/Tienda/tiendaPC.jpg",
+              "ProyectosDiseño/Tienda/tiendaMobile.png",
+              "ProyectosDiseño/Tienda/tiendaTablet.png",
+              "ProyectosDiseño/Tienda/tiendaPC.png",
             ]}
           />
         </div>

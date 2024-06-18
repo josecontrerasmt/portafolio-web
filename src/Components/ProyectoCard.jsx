@@ -14,7 +14,7 @@ export default function ProyectoCard({
       className="cursor-pointer border border-gray-500 p-4 rounded-xl flex flex-col gap-5 hover:border-secondaryColor transition duration-300 group md:gap-3 relative"
     >
       <img
-        className="rounded-xl w-full h-52 object-cover"
+        className="rounded-xl w-full h-auto object-cover"
         src={imgRuta}
         alt={titulo}
       />
